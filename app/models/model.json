@@ -4,17 +4,17 @@
     //filename: sqlite3 db file name
     //"filename":"",
     //host: server address,localhost by default;
-    "host": "127.0.0.1",
+    "host": "db",
     //port: server port, 5432 by default;
     "port": 5432,
     //dbname: Database name;
-    "dbname": "",
+    "dbname": "db",
     //schema: valid for postgreSQL, "public" by default;
     "schema": "public",
     //user: User name
-    "user": "",
+    "user": "user",
     //password or passwd: Password
-    "password": "",
+    "password": "password",
     //client_encoding: The character set used by drogon_ctl. it is empty string by default which 
     //means use the default character set.
     //"client_encoding": "",
@@ -78,7 +78,7 @@
         ]
     },
     "restful_api_controllers": {
-        "enabled": false,
+        "enabled": true,
         // resource_uri: The URI to access the resource, the default value 
         // is '/*' in which the asterisk represents the table name.
         // If this option is set to a empty string, the URI is composed of the namespaces and the class name.
